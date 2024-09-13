@@ -1,0 +1,326 @@
+header{
+    display: flex;
+    height: 130px;
+    width: 100%;
+    /* color: black; */
+    padding: 20px;
+    align-items: center;
+    background-image: url(./cinema\ poster.jpg) ;
+    border-radius: 15px;
+    /* margin: 8px; */
+    /* background-repeat: no-repeat; */
+}
+.head{
+    /* height: 20px; */
+    align-items: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+body{
+    margin: 0px;
+    width: 98%;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    display: flex;
+    justify-content:space-evenly;
+    width: 100%;
+    padding:20px;
+    font-size:30px ;
+    
+}
+nav{
+    width:70%;
+    font-size:30px;
+}
+.logos{
+    display: flex;
+    justify-content: center;
+    width: 10%;
+    color: black;
+    height: 80px;
+    align-items: center;
+    padding: 40px;
+}
+.logos a i{
+    font-size: 55px;
+    /* background-color: aqua; */
+}
+li{
+    border-color: black;
+    border-style: solid;
+    width: 180px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    list-style: none;
+    text-decoration: none;
+}
+li:hover{    
+    background-color:white;
+    cursor: pointer;
+    color: black;
+
+}
+li:active{
+background-color: white;
+color:black;
+}
+footer{
+    justify-content:right;
+    background-color: rgb(29, 24, 24);
+    align-items: center;
+    color: WHITE;
+    margin: 10px;
+    /* border-top: 20px; */
+    border-color: yellow;
+    border-style: solid;
+    border-radius: 20px;
+}
+.bottom{
+    width:100%;
+    justify-content:left;
+    align-items: center;
+    
+}
+.play{
+    width: 100%;
+    justify-content: right;
+     display: flex;
+ }
+#social{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.bottomlogo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 20px;
+}
+.suriya{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 20px;
+}
+.top{
+    position:sticky;
+    top: 0; 
+}
+.shows{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    margin: 20px;
+    border-color: rgb(212, 163, 171);
+    border-style: solid;
+    border-radius: 15px ;
+    box-shadow: 15px;
+       
+}
+.time{
+    width: 100%;
+    font-size: x-large;
+    align-items: center;
+    justify-content: center;
+    display: flex;    
+    color: blueviolet;
+    background-color:rgb(212, 163, 171) ;
+    
+}
+#list{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    /* border-color: rgb(212, 163, 171); */
+    /* background-color:rgb(212, 163, 171) ; */
+    /* border-style: solid; */
+    border-radius: 15px ;
+    
+}
+.number:hover{
+    background-color: black;
+    color:white;
+    position: sticky;
+    top: 10px;
+    transition: 1s;
+
+}
+.number:active{
+    background-color: white;
+color:black;
+
+}
+.number{
+    display: flex;
+    height: 100px;
+   
+}
+.click{
+    justify-content: space-evenly;
+    border-color: black;
+    border-style: solid;
+    padding: 20px;
+    display: flex;
+    width: 60%;
+    margin: 20px;
+    font-size: 30px;
+}
+div.name{
+    /* padding: 20px; */
+    align-items: center;
+    margin: 10px;
+    width: 30%;
+    font-size: 35px;
+}
+.timings{
+    height: 200px;
+    width: 80%;
+    border-color: black;
+    border-style: solid;
+    align-items: center;
+    margin: 20px;
+    display: flex ;
+}
+
+.click:hover{    
+    background-color:rgb(146, 146, 73);
+    cursor: pointer;
+    color: white;
+    transition: 1s;
+
+}
+.click:active{
+    background-color: white;
+color:black;
+
+}
+/* .shows{
+   
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+} */
+.schedule {
+    display: flex;
+    width: 100%;
+    /* height: 50px; */
+    margin: 20px;
+    /* border-color: rgb(212, 163, 171); */
+    /* border-style: solid; */
+    border-radius: 15px;
+    box-shadow: 15px;
+}
+table{
+    background-color: rgba(187, 187, 51, 0.884);
+    color: white;
+    justify-content: center;
+    /* align-items: center; */
+    display: flex;
+    border-radius: 15px;
+    width: 90%;
+    border-color: black;
+    border-style: solid;
+}
+.number:active{
+background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.click:nth-child(odd){
+    color: green;
+}
+.click:nth-child(even){
+    color: red;
+}
+.cast{
+    font-size: 35px;
+}
+.screen{
+    font-size: 50px;
+    color: black;
+}
+.lobby{
+    height: 200px;
+    width: 80%;
+    border-color: rgb(129, 117, 117);
+    border-style: solid;
+    align-items: center;
+    margin: 20px;
+    display: flex ;
+    border-radius: 15px;
+    /* box-shadow: 20px,20px; */
+    /* box-shadow: black; */
+}
+.theatre{
+    width: 35%;
+    margin: 20px;
+    justify-content: center;
+    height: 80px;
+    align-items: center;
+    display: flex;
+}
+.sathyam{
+    width:25% ;
+}
+i{
+    /* height: 100px; */
+    /* width: 40px; */
+    font-size: 50px;
+    align-items:baseline;
+    /* text-decoration: none; */
+}
+.debit{
+    display: flex;
+    justify-content: center;
+    width:100%;
+    /* height: 120px; */
+    align-items: center;
+    border-radius: 20px;
+    border-color: black;
+
+}
+.card{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 420px;
+    border-radius: 20px;
+    border-color: black;
+}
+.personal{
+    width: 100%;
+    align-items: center;
+    display:flex ;
+    justify-content: center;
+}
+.preference{
+    padding: 45px;
+    justify-content: left;
+}
+.data{
+    display: flex;
+    /* justify-content: right; */
+    font-size: 40px;
+    padding: 10px;
+}
+.full{
+    border-style: solid;
+    border-color: black;
+    box-shadow: 10px;
+    border-width: 1px;
+    box-shadow: black;
+    height: 330px;
+    align-items: center;
+    color: rgb(143, 121, 121);
+}
